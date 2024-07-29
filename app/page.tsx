@@ -14,7 +14,6 @@ export default function Home() {
         <p>You should open the link extracted</p>
         <p>on the vending machine`s qr code</p>
         <p>to start a session</p>
-        <p>for devs, tip: add path `/machines/123`</p>
       </div>
     </section>
   );

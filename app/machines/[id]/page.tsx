@@ -37,7 +37,7 @@ export default async function MachinePage({
         </h2>
       </div>
 
-      <div className="flex gap-3">
+      <div className="flex gap-3 text-center">
         <SyncMachine machineId={params.id} />
       </div>
     </section>

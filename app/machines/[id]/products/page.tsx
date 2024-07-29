@@ -84,12 +84,78 @@ const getProductsByMachineId = async (machineId: string) => {
     foodSample,
     drinkSample,
     otherSample,
-    foodSample,
-    drinkSample,
-    otherSample,
-    foodSample,
-    drinkSample,
-    otherSample,
+    generateProduct(
+      "Nasi Uduk",
+      foodCategory,
+      15000,
+      25,
+      "https://images.unsplash.com/photo-1709201761899-7b36ce377f86?q=80&w=1140&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ""
+    ),
+    generateProduct(
+      "Jus Apel",
+      drinkCategory,
+      10000,
+      30,
+      "https://plus.unsplash.com/premium_photo-1663089590359-6ec775dd518e?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ""
+    ),
+    generateProduct(
+      "Kertas A4 1 Rim",
+      otherCategory,
+      40000,
+      50,
+      "https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?q=80&w=1004&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ""
+    ),
+    generateProduct(
+      "Soto Ayam",
+      foodCategory,
+      18000,
+      30,
+      "https://images.unsplash.com/photo-1681378128359-a5c2492a3535?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ""
+    ),
+    generateProduct(
+      "Es Teh Manis",
+      drinkCategory,
+      6000,
+      50,
+      "https://plus.unsplash.com/premium_photo-1664392087859-815b337c3324?q=80&w=1080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ""
+    ),
+    generateProduct(
+      "Penggaris",
+      otherCategory,
+      3000,
+      75,
+      "https://images.unsplash.com/photo-1502043150060-b01aa3030556?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ""
+    ),
+    generateProduct(
+      "Kebab",
+      foodCategory,
+      12000,
+      10,
+      "https://images.unsplash.com/photo-1545092714-55b264ca417d?q=80&w=1186&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ""
+    ),
+    generateProduct(
+      "Jus Jeruk",
+      drinkCategory,
+      12000,
+      10,
+      "https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHx8",
+      ""
+    ),
+    generateProduct(
+      "Kertas Polio 1 Rim",
+      otherCategory,
+      40000,
+      40,
+      "https://images.unsplash.com/photo-1532153354457-5fbe1a3bb0b4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      ""
+    ),
   ];
 };
 
